@@ -53,6 +53,7 @@ public class HomePage extends TestBase {
 	
 	public void validateSignIn() {
 		SignInBtn.click();
+		
 	}
 	
 	public void validateRegister() {

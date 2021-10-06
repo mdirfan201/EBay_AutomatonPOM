@@ -16,7 +16,6 @@ import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-
 import com.qa.base.TestBase;
 import com.qa.pages.HomePage;
 
@@ -60,7 +59,7 @@ public class HomePageTest extends TestBase {
 	@Test(priority=1)
 	public void ValidateHomePageTitleTest() {
 		test=extent.createTest("TC_01 : HOMEPAGE Validate Title Test");
-		String ExpextedTitle="Error Page | eBay";
+		String ExpextedTitle="Electronics, Cars, Fashion, Collectibles & More | eBay";
 		String ActualTitle= homepage.validateTitle();
 		Assert.assertEquals(ActualTitle, ExpextedTitle, "Title Not matched");
 	}
