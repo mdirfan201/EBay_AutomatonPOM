@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="91283" started-at="2021-10-06T15:39:55Z" finished-at="2021-10-06T15:41:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="91283" started-at="2021-10-06T15:39:55Z" finished-at="2021-10-06T15:41:26Z">
+      <class name="com.qa.Testcases.HomePageTest">
+        <test-method status="PASS" signature="setupExtentReport()[pri:0, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="setupExtentReport" is-config="true" duration-ms="221" started-at="2021-10-06T15:39:55Z" finished-at="2021-10-06T15:39:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentReport -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="setup" is-config="true" duration-ms="5867" started-at="2021-10-06T15:39:55Z" finished-at="2021-10-06T15:40:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateHomePageTitleTest()[pri:1, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="ValidateHomePageTitleTest" duration-ms="48" started-at="2021-10-06T15:40:01Z" finished-at="2021-10-06T15:40:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="tearDown" is-config="true" duration-ms="4437" started-at="2021-10-06T15:40:01Z" finished-at="2021-10-06T15:40:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateHomePageTitleTest status=SUCCESS method=HomePageTest.ValidateHomePageTitleTest()[pri:1, instance:com.qa.Testcases.HomePageTest@45dd4eda] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="setup" is-config="true" duration-ms="5091" started-at="2021-10-06T15:40:05Z" finished-at="2021-10-06T15:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateHomePageLogoTest()[pri:2, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="ValidateHomePageLogoTest" duration-ms="79" started-at="2021-10-06T15:40:10Z" finished-at="2021-10-06T15:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateHomePageLogoTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="tearDown" is-config="true" duration-ms="4356" started-at="2021-10-06T15:40:10Z" finished-at="2021-10-06T15:40:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateHomePageLogoTest status=SUCCESS method=HomePageTest.ValidateHomePageLogoTest()[pri:2, instance:com.qa.Testcases.HomePageTest@45dd4eda] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="setup" is-config="true" duration-ms="4647" started-at="2021-10-06T15:40:15Z" finished-at="2021-10-06T15:40:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateHomePageSignInTest()[pri:3, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="ValidateHomePageSignInTest" duration-ms="1854" started-at="2021-10-06T15:40:19Z" finished-at="2021-10-06T15:40:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateHomePageSignInTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="tearDown" is-config="true" duration-ms="4356" started-at="2021-10-06T15:40:21Z" finished-at="2021-10-06T15:40:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateHomePageSignInTest status=SUCCESS method=HomePageTest.ValidateHomePageSignInTest()[pri:3, instance:com.qa.Testcases.HomePageTest@45dd4eda] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="setup" is-config="true" duration-ms="4580" started-at="2021-10-06T15:40:26Z" finished-at="2021-10-06T15:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateHomePageRegisterTest()[pri:4, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="ValidateHomePageRegisterTest" duration-ms="3177" started-at="2021-10-06T15:40:30Z" finished-at="2021-10-06T15:40:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateHomePageRegisterTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="tearDown" is-config="true" duration-ms="299" started-at="2021-10-06T15:40:33Z" finished-at="2021-10-06T15:40:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateHomePageRegisterTest status=SUCCESS method=HomePageTest.ValidateHomePageRegisterTest()[pri:4, instance:com.qa.Testcases.HomePageTest@45dd4eda] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="setup" is-config="true" duration-ms="4899" started-at="2021-10-06T15:40:34Z" finished-at="2021-10-06T15:40:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateHomePageDailyDealsTest()[pri:5, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="ValidateHomePageDailyDealsTest" duration-ms="1407" started-at="2021-10-06T15:40:39Z" finished-at="2021-10-06T15:40:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateHomePageDailyDealsTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="tearDown" is-config="true" duration-ms="4461" started-at="2021-10-06T15:40:40Z" finished-at="2021-10-06T15:40:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateHomePageDailyDealsTest status=SUCCESS method=HomePageTest.ValidateHomePageDailyDealsTest()[pri:5, instance:com.qa.Testcases.HomePageTest@45dd4eda] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="setup" is-config="true" duration-ms="5189" started-at="2021-10-06T15:40:44Z" finished-at="2021-10-06T15:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateHomePageContactTest()[pri:6, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="ValidateHomePageContactTest" duration-ms="2266" started-at="2021-10-06T15:40:50Z" finished-at="2021-10-06T15:40:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateHomePageContactTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="tearDown" is-config="true" duration-ms="4503" started-at="2021-10-06T15:40:52Z" finished-at="2021-10-06T15:40:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateHomePageContactTest status=SUCCESS method=HomePageTest.ValidateHomePageContactTest()[pri:6, instance:com.qa.Testcases.HomePageTest@45dd4eda] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="setup" is-config="true" duration-ms="5307" started-at="2021-10-06T15:40:56Z" finished-at="2021-10-06T15:41:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateHomePageSellTest()[pri:7, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="ValidateHomePageSellTest" duration-ms="1163" started-at="2021-10-06T15:41:02Z" finished-at="2021-10-06T15:41:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateHomePageSellTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="tearDown" is-config="true" duration-ms="4620" started-at="2021-10-06T15:41:03Z" finished-at="2021-10-06T15:41:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateHomePageSellTest status=SUCCESS method=HomePageTest.ValidateHomePageSellTest()[pri:7, instance:com.qa.Testcases.HomePageTest@45dd4eda] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="setup" is-config="true" duration-ms="4699" started-at="2021-10-06T15:41:08Z" finished-at="2021-10-06T15:41:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidateHomePageMayeBayTest()[pri:8, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="ValidateHomePageMayeBayTest" duration-ms="9542" started-at="2021-10-06T15:41:12Z" finished-at="2021-10-06T15:41:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateHomePageMayeBayTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="tearDown" is-config="true" duration-ms="4395" started-at="2021-10-06T15:41:22Z" finished-at="2021-10-06T15:41:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateHomePageMayeBayTest status=SUCCESS method=HomePageTest.ValidateHomePageMayeBayTest()[pri:8, instance:com.qa.Testcases.HomePageTest@45dd4eda] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearExtentReoprt()[pri:0, instance:com.qa.Testcases.HomePageTest@45dd4eda]" name="tearExtentReoprt" is-config="true" duration-ms="511" started-at="2021-10-06T15:41:26Z" finished-at="2021-10-06T15:41:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearExtentReoprt -->
+      </class> <!-- com.qa.Testcases.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
